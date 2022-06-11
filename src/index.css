@@ -1,0 +1,43 @@
+@import url('antd/dist/antd.css');
+* {
+  /* Color */
+  --color-p: #252525;
+  --color-s: #ffffff;
+  --color-o: #ff6600;
+
+  /* Font-Family */
+  --roboto: Roboto, sans-serif;
+
+  /* Font */
+  --font8: 8px;
+  --font10: 10px;
+  --font12: 12px;
+  --font14: 14px;
+  --font16: 18px;
+  --font24: 24px;
+  --font30: 30px;
+  --font60: 60px;
+
+  /* Gap */
+  --gap0: 0px;
+  --gap5: 5px;
+  --gap10: 10px;
+  --gap15: 15px;
+  --gap20: 20px;
+  --gap25: 25px;
+  --gap30: 30px;
+  --gap40: 40px;
+  --gap50: 50px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--roboto);
+  color: var(--color-p);
+  font-size: var(--font14);
+  line-height: var(--font24);
+  font-weight: normal;
+}
