@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const SideNavbar = styled.div`
   padding: var(--gap0);
+  text-align: center;
   ul {
     padding: var(--gap0);
     margin: var(--gap0);

@@ -9,11 +9,16 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import { SideNavbar } from './style';
-import { Tooltip } from 'antd';
+import { Tooltip, Typography } from 'antd';
+
+const { Title } = Typography;
 
 const SidebarNav = () => {
   return (
     <SideNavbar>
+      <Title>
+        <NavLink to="/">N</NavLink>
+      </Title>
       <ul>
         {sideBar?.map((menu, i) => {
           return (
