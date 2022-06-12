@@ -44,17 +44,17 @@ const sideBar = [
   },
   {
     title: 'My Skill',
-    link: '/',
+    link: '/my-skill',
     icon: <TrophyOutlined />,
   },
   {
-    title: 'My CV',
-    link: '/',
-    icon: <DownloadOutlined />,
+    title: 'Contact Me',
+    link: '/contact-me',
+    icon: <ContactsOutlined />,
   },
   {
-    title: 'Contact Me',
-    link: '/',
-    icon: <ContactsOutlined />,
+    title: 'My CV',
+    link: '/my-cv',
+    icon: <DownloadOutlined />,
   },
 ];
