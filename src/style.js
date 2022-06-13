@@ -9,6 +9,7 @@ export const EntrySidebar = styled.div`
   width: 5%;
 `;
 export const EntryContent = styled.div`
+  position: relative;
   width: 95%;
   float: right;
 `;

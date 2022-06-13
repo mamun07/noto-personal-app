@@ -42,3 +42,9 @@ body {
   line-height: var(--font24);
   font-weight: normal;
 }
+a {
+  color: var(--color-p);
+}
+a:hover {
+  color: var(--color-o);
+}
