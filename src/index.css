@@ -14,10 +14,15 @@
   --font10: 10px;
   --font12: 12px;
   --font14: 14px;
-  --font16: 18px;
+  --font16: 16px;
+  --font18: 18px;
+  --font20: 20px;
   --font24: 24px;
   --font30: 30px;
+  --font40: 40px;
   --font60: 60px;
+  --font70: 70px;
+  --font80: 80px;
 
   /* Gap */
   --gap0: 0px;
@@ -29,6 +34,8 @@
   --gap30: 30px;
   --gap40: 40px;
   --gap50: 50px;
+  --gap60: 60px;
+  --gap80: 80px;
 }
 
 html,
